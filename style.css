@@ -13,6 +13,36 @@ a {
 nav {
   background-color: #424245;
   height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container-navbar{
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.main-container{
+  width: 70%;
+
+}
+
+.items-navbar{
+  list-style: none;
+  font-size: 12px;
+
+}
+
+.links-navbar{
+  color: #f5f5f7;
+}
+
+.apple-logo{
+  height: px;
 }
 
 .section-1 {
@@ -20,7 +50,8 @@ nav {
   height: 72px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  
+
 }
 
 .enlace-unicef a {
@@ -32,6 +63,7 @@ nav {
 
 .section-2 {
   background-image: url(https://www.apple.com/v/home/aq/images/heroes/macbook-air/hero_macbookair__el7scava26mq_large.png);
+
 
   background-repeat: no-repeat;
   background-position: 50%;
