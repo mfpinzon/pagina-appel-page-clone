@@ -16,32 +16,27 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-.container-navbar{
+.container-navbar {
   display: flex;
   justify-content: space-around;
-
-
 }
 
-.main-container{
+.main-container {
   width: 70%;
-
 }
 
-.items-navbar{
+.items-navbar {
   list-style: none;
   font-size: 12px;
-
 }
 
-.links-navbar{
+.links-navbar {
   color: #f5f5f7;
 }
 
-.apple-logo{
+.apple-logo {
   height: px;
 }
 
@@ -50,8 +45,6 @@ nav {
   height: 72px;
   display: flex;
   justify-content: center;
-  
-
 }
 
 .enlace-unicef a {
@@ -63,7 +56,6 @@ nav {
 
 .section-2 {
   background-image: url(https://www.apple.com/v/home/aq/images/heroes/macbook-air/hero_macbookair__el7scava26mq_large.png);
-
 
   background-repeat: no-repeat;
   background-position: 50%;
@@ -142,53 +134,172 @@ nav {
   align-items: center;
 }
 
-.container-inf-s4
-{
+.container-inf-s4 {
   margin-bottom: 25%;
 }
 
-.titulo-s4{
+.titulo-s4 {
   text-align: center;
   font-size: 28px;
-    line-height: 1.08349;
-    font-weight: 600;
-    letter-spacing: -.002em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    font-style: italic;
-    font-weight: bold;
+  line-height: 1.08349;
+  font-weight: 600;
+  letter-spacing: -0.002em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-style: italic;
+  font-weight: bold;
 }
 
-
-.subtitulo-s4
-{
+.subtitulo-s4 {
   text-align: center;
   font-size: 18px;
-    line-height: 1.16667;
-    font-weight: 400;
-    letter-spacing: .009em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  line-height: 1.16667;
+  font-weight: 400;
+  letter-spacing: 0.009em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
 }
 
-  .titulo-s4 span{
-    color: #ca2166;
+.titulo-s4 span {
+  color: #ca2166;
+}
 
-    
-  }
-
-  .links-s4{
-    display: flex;
-    justify-content: center;
-
-  }
-
+.links-s4 {
+  display: flex;
+  justify-content: center;
+}
 
 .section-5 {
-  background-color: yellow;
   height: 1776px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
+.columnas {
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.columna-1 {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.columna-2 {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.cajas {
+  height: 580px;
+  background-color: #000;
+}
+
+.caja-1 {
+  background-image: url(https://web.archive.org/web/20220804032305im_/https://www.apple.com/v/home/aq/images/promos/iphone-13-pro/promo_iphone13pro_avail__beadms4ldidu_large.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titulo-caja-1 {
+  margin-top: 70px;
+}
+
+.caja-2 {
+  background-image: url(https://web.archive.org/web/20220804032114im_/https://www.apple.com/v/home/aq/images/promos/watch-series-7/promo_watch_lte__djeaso7ukrsm_large.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-caja-2{
+  margin-top: 50px;
+}
+.caja-3 {
+  background-image: url(https://web.archive.org/web/20220804032251im_/https://www.apple.com/v/home/aq/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.img-caja-3{
+  margin-top: 50px;
+}
+.h3-caja-3{
+  text-align: center;
+}
+.caja-4 {
+  background-image: url(https://web.archive.org/web/20220804032217im_/https://www.apple.com/v/home/aq/images/promos/macbook-pro-13/promo_mbp13__buwssod6c8vm_large.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.h2-caja-4{
+  color: #fbfbfb;
+}
+.titulo-caja-4{
+  margin-top: 50px;
+}
+
+.caja-5 {
+  background-image: url(https://web.archive.org/web/20220804032134im_/https://www.apple.com/v/home/aq/images/promos/ipad-air/promo_ipadair_avail__ferd4bfpcdm6_large.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.h3-caja-5{
+  color: #fbfbfb;
+}
+.img-caja-5{
+  margin-top: 50px;
+}
+.caja-6 {
+  background-image: url(https://web.archive.org/web/20220804032152im_/https://www.apple.com/v/home/aq/images/promos/airpods-pro/tile__cauwwcyyn9hy_large.jpg);
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.titulo-caja-6{
+  margin-top: 50px;
+  color: #f5f5f7;
+
+}
+.h3-caja-6{
+  color: #f5f5f7;
+
+}
 footer {
   background-color: blueviolet;
   height: 134px;
 }
 
+@media (max-width: 425px) {
+  .section-5 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .columnas {
+    padding: 0px;
+    gap: 0px;
+  }
+}
