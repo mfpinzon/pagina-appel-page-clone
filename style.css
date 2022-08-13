@@ -289,9 +289,35 @@ nav {
 
 }
 footer {
-  background-color: blueviolet;
-  height: 134px;
+  
+  padding: 30px 100px;
 }
+.link-footer {
+  color: #202020;
+padding-right: 10px;
+margin-right: 7px;
+border-right: 1px solid #CBCBCB;
+
+}
+.div-central-footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+
+
+}
+.div-primero-footer{
+  padding-bottom: 8px;
+  margin-bottom: 7px;
+   border-bottom: 1px solid #CBCBCB;
+   
+
+}
+.div-ultimo-footer{
+  margin-top: 5px;
+
+}
+
 
 @media (max-width: 425px) {
   .section-5 {
@@ -302,4 +328,5 @@ footer {
     padding: 0px;
     gap: 0px;
   }
+  
 }
